@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #b4b5b3;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#display {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.buttons button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #4d8f57;
+}
+
+
+/* Add a class for the green equals button */
+
+.green-button {
+    background-color: #428e45;
+    color: #fff;
+}
